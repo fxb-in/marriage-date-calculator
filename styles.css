@@ -1,0 +1,116 @@
+body {
+    
+        background-image: url(Color\ Pink\ Background.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        width: 100%;
+        height: 100vh; 
+    }
+.container {
+    background-color: rgb(230, 177, 186);
+    border-radius: 10px;
+   
+    padding: 50px;
+    margin: 10px auto;
+    max-width: 400px;
+}
+
+
+h1 {
+    font-size: 24px;
+    color: rgb(126, 70, 79);
+   
+    margin: 0;
+    padding: 10px 0;
+}
+
+
+button {
+    background: rgb(185, 105, 118);
+    color: rgb(245, 207, 213);
+    border: none;
+    padding: 20px 20px;
+    margin:10px auto 5px 130px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+    align-items: center;
+}
+
+button:hover {
+    background: linear-gradient(to right, #f6a5c0, #d7d0e0);
+}
+
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid rgb(231, 195, 201);
+    border-radius: 5px;
+    outline: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(240, 212, 217);
+}
+label{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    color: rgb(94, 59, 65);
+    font-weight: bold;
+}
+
+
+
+.output-container {
+    margin: 20px 0;
+    border-top: 2px dotted rgb(133, 64, 76);
+    padding-top: 20px;
+}
+
+
+input:focus {
+    box-shadow: 0 0 5px rgba(246, 165, 192, 0.7);
+}
+
+.emoji-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+ 
+ 
+}
+
+.emoji-button {
+    background-color: rgb(195, 134, 144);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 40px;
+    margin: 0 10px;
+    transition: background 0.3s;
+}
+
+.emoji-button:hover {
+    background-color: rgb(123, 75, 83);
+}
+
+.output-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#marriageDate {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#reactionEmoji {
+    font-size: 36px;
+    margin-top: 10px;
+}
+
